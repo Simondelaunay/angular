@@ -1,0 +1,14 @@
+
+<div *ngIf="pizza;else loading" class="container">
+  <h1>{{ pizza.id }}</h1>
+  <dl class="list">
+    <dt>Name</dt>
+    <dd>{{ pizza.name }}</dd>
+    <dt>Description</dt>
+    <dd>{{ pizza.description }}</dd>
+    <dt>Price</dt>
+    <dd>{{ pizza.price }}</dd>
+    <dt>Created at</dt>
+    <dd>{{ pizza.created_at }}</dd>
+  </dl>
+</div>
